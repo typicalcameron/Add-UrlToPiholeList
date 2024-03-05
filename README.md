@@ -26,11 +26,11 @@
 
 ## Examples:
 ### Example 1:
-```
+```powershell
     Add-UrlToPiHoleList -piholeIP 192.168.0.2 -url "google.com" -apiKey "XXXXXXXXXXXXXXXXXXXXXXXXXXX" -List black
 ```
 ### Example 2:
-```
+```powershell
     $piHoleIP = 192.168.0.2
     $url = "google.com"
     $apikey "XXXXXXXXXXXXXXXXXXXXXXXXXX"
